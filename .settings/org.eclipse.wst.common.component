@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+	<wb-module deploy-name="Workhours">
+		<property name="context-root" value="Workhours"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/groovy"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/john/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-server/7.6.5/5125514c1aacc90a80789aa95de000585f198e6c/vaadin-server-7.6.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/john/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-themes/7.6.5/b06abe3c1ec6d169a7a7b077f35cee911724ef07/vaadin-themes-7.6.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/john/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/john/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-sass-compiler/0.9.13/663088831773c35e033ea1538b96d817ce7cef52/vaadin-sass-compiler-0.9.13.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/john/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-shared/7.6.5/4054c0c41771a820ff05d0244662e4baaefbf8cb/vaadin-shared-7.6.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/john/.gradle/caches/modules-2/files-2.1/org.jsoup/jsoup/1.8.3/65fd012581ded67bc20945d85c32b4598c3a9cf1/jsoup-1.8.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/john/.gradle/caches/modules-2/files-2.1/org.w3c.css/sac/1.3/cdb2dcb4e22b83d6b32b93095f644c3462739e82/sac-1.3.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/john/.gradle/caches/modules-2/files-2.1/com.vaadin.external.flute/flute/1.3.0.gg2/48e8c3a235544a0506ca3081519ce114169242a/flute-1.3.0.gg2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/john/.gradle/caches/modules-2/files-2.1/com.yahoo.platform.yui/yuicompressor/2.4.8/900a7296bb52d740418d53274c1ecac5c83c760e/yuicompressor-2.4.8.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/john/.gradle/caches/modules-2/files-2.1/com.vaadin.external.streamhtmlparser/streamhtmlparser-jsilver/0.0.10.vaadin1/f0c67779b52ddcdf0191d5309606db0353f5b7e/streamhtmlparser-jsilver-0.0.10.vaadin1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/john/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/guava/16.0.1.vaadin1/8f83998831c54d2b586c7aa83c47644239614034/guava-16.0.1.vaadin1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/john/.gradle/caches/modules-2/files-2.1/rhino/js/1.7R2/b95d5212ff4cea92cee1c3c6fa50aa82c9d4905b/js-1.7R2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/john/.gradle/caches/modules-2/files-2.1/com.vaadin/vaadin-client-compiled/7.6.5/f1841680680487e1ef6c44456c64732ca668420d/vaadin-client-compiled-7.6.5.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+	</wb-module>
+</project-modules>

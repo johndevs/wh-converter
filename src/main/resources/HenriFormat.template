@@ -1,0 +1,7 @@
+# format=henri
+# PROJECT MAP START
+<% model.projects.each{ String name, String code -> println "$name=$code" } %># PROJECT MAP END
+<% import com.example.workhours.model.Model; %><% import com.example.workhours.model.Task %>
+<% model.tasks.each { String group, List<Task> tasks -> %>*$group
+<% tasks.each { Task task -> println "- ${task.projectName}: ${task.description} ${task.duration}h" } %>
+<% } %>

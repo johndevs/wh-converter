@@ -2,9 +2,11 @@ apply from: 'http://plugins.jasoft.fi/vaadin-groovy.plugin'
 apply plugin: 'groovy'
 apply plugin: 'eclipse-wtp'
 
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
 dependencies {
 	compile 'org.codehaus.groovy:groovy-all:2.4.6'
-	compile 'org.vaadin.addons:observablelistcontainer:0.0.1'
 }
 
 vaadin {

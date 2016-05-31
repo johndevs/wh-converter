@@ -2,8 +2,6 @@ package com.example.workhours.converters
 
 import java.text.SimpleDateFormat;
 
-import org.apache.commons.lang3.time.DateUtils;
-
 import com.example.workhours.model.Model
 import com.example.workhours.model.Task
 import com.google.gwt.event.logical.shared.ValueChangeEvent;
@@ -34,7 +32,6 @@ import com.vaadin.ui.Table
 import com.vaadin.ui.Upload;
 import com.vaadin.ui.VerticalLayout
 
-import fi.jasoft.ObservableListContainer;
 import groovy.text.SimpleTemplateEngine
 
 import com.vaadin.ui.Upload.SucceededEvent;

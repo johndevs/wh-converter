@@ -174,7 +174,7 @@ class GleeoTimeTrackerConverterView extends CustomComponent implements View {
 				)
 			
 				def day = new SimpleDateFormat('EE').format(d)		
-				def group = "$day ${d[Calendar.DATE]}.${d[Calendar.MONTH]}."
+				def group = "$day ${d[Calendar.DATE]}.${d[Calendar.MONTH]+1}."
 				if(!model.tasks[group]){
 					model.tasks[group] = []
 				}

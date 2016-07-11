@@ -6,6 +6,7 @@ sourceCompatibility = 1.7
 targetCompatibility = 1.7
 
 vaadin {
+    version '7.7.0.alpha3'
 	logToConsole true
 }
 

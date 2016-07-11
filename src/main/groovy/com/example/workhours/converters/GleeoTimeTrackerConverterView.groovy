@@ -4,7 +4,6 @@ import java.text.SimpleDateFormat;
 
 import com.example.workhours.model.Model
 import com.example.workhours.model.Task
-import com.google.gwt.event.logical.shared.ValueChangeEvent;
 import com.vaadin.data.Item
 import com.vaadin.data.Property.ValueChangeListener;
 import com.vaadin.data.Validator

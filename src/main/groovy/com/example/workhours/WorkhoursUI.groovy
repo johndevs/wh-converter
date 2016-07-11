@@ -10,7 +10,6 @@ import com.vaadin.annotations.Theme
 import com.vaadin.annotations.Widgetset;
 
 @Theme('Workhours')
-@Widgetset('AppWidgetset')
 class WorkhoursUI extends UI{
 	
 	@Override

@@ -1,5 +1,4 @@
 apply from: 'http://plugins.jasoft.fi/vaadin-groovy.plugin?version=0.11-SNAPSHOT'
-apply plugin: 'groovy'
 apply plugin: 'eclipse-wtp'
 
 sourceCompatibility = 1.7

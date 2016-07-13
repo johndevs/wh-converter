@@ -9,6 +9,5 @@ vaadin {
 	logToConsole true
 }
 
-vaadinRun {
-	classesDir 'bin'
-}
+// Make eclipse put its classes in the standard directory
+eclipse.classpath.defaultOutputDir = project.sourceSets.main.output.classesDir
